@@ -1,3 +1,13 @@
+
+regexp=.*error.*
+colour=red
+-
+regexp=.*failed.*
+colour=red
+-
+regexp=.*pass.*
+colour=green
+-
 regexp==== RUN .*
 colour=blue
 -
@@ -18,13 +28,4 @@ colour=red
 -
 regexp=[^\s]+\.go(:\d+)?
 colour=cyan
--
-regexp=.*error.*
-colour=red
--
-regexp=.*failed.*
-colour=red
--
-regexp=.*pass.*
-colour=green
 -
