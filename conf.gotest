@@ -13,12 +13,18 @@ colour=magenta
 regexp=--- FAIL: .*
 colour=red
 -
+regexp=FAIL
+colour=red
+-
 regexp=[^\s]+\.go(:\d+)?
 colour=cyan
 -
-regexp=--- error: .*
+regexp=.*error.*
 colour=red
 -
-regexp=--- pass: .*
+regexp=.*failed.*
+colour=red
+-
+regexp=.*pass.*
 colour=green
 -
